@@ -16,8 +16,9 @@ img {
     position: relative;
 }
 .auto {
-/*helyezd el az autót a lámpa alatt az úttesten!*/
-
+    position: absolute;
+    top: calc(55% - 100px);
+    left: calc(25% - 40px);
 }
 .lampa {
     position: absolute;
@@ -37,7 +38,7 @@ img {
     /* background-color: lavender; */
 }
 .piros {
-    background: rgb(146, 35, 35);
+    background: rgb(233, 34, 34);
 }
 .sarga {
     background: rgb(230, 196, 84);
